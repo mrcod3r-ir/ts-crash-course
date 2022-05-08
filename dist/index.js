@@ -96,4 +96,5 @@ var Employee = /** @class */ (function (_super) {
     return Employee;
 }(Person));
 var emp = new Employee(3, "Shawn", "Developer");
+console.log(emp.name);
 console.log(emp.register());

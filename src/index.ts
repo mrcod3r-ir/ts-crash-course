@@ -135,4 +135,5 @@ class Employee extends Person {
 
 const emp = new Employee(3, "Shawn", "Developer")
 
+console.log(emp.name)
 console.log(emp.register())
